@@ -1,23 +1,9 @@
-## @Tentkotta_HDT_Vijaytv_bot
-
-## Render info
-
-Login mail- 
-``` 
-llyrzydjrgul@bugfoo.com
-```
-Login pass- 
-```
-llyrzydjrgul
-```
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/renametamil4k/filestore)
 
 
-##
-### Installation
-#### Deploy on Heroku
-**BEFORE YOU DEPLOY ON HEROKU, YOU SHOULD FORK THE REPO AND CHANGE ITS NAME TO ANYTHING ELSE**<br>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shanclient/filestore)
-
+<a href="https://render.com/deploy?repo=https://github.com/renametamil4k/filestore">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />
+</a>
 
 
 ## Vps Cmd -----------
