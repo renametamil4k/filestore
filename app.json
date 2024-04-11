@@ -15,11 +15,11 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": ""
+      "value": "1032438381"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "22642704"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
@@ -31,7 +31,7 @@
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "878698447412869d1b30bf929f32e86f"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
@@ -43,7 +43,7 @@
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}❤️\n\nI am a file share bot of @RUBANENCODES Channel. \n If you want a bot like me means contact @RIDZYSBOT.\n ❤️Thank You❤️"
+      "value": "Hello {first}❤️\n\nI am a File Share Bot Of @TEAMUHD. ❤️Thank You for using our community❤️"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
@@ -51,7 +51,7 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "1032438381",
       "required": false
     },
     "PROTECT_CONTENT": {
