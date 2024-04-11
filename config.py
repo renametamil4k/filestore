@@ -5,34 +5,34 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5825503942:AAGJSjttPWun1D9PL0YwmvWFrUNrHYO539E")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "17850184"))
+APP_ID = int(os.environ.get("APP_ID", ""))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "a9607d2b34098b079b6365db3131fd6e")
+API_HASH = os.environ.get("API_HASH", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", " -1001590974706"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", " "))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "2079962173"))
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 #Port
 PORT = os.environ.get("PORT", None)
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://manju:1234@cluster0.s6qpf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot6896666668")
+DB_URI = os.environ.get("DATABASE_URL", "")
+DB_NAME = os.environ.get("DATABASE_NAME", "")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001845294730"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "👋 Hello {first}\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello 🐾 𝗗 ∆ 𝗡 𝗬🕊️❤️\n\nI am a File Share Bot Of @TEAMUHD. ❤️Thank You for using our community❤️.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "5863383503").split()):
@@ -59,7 +59,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = ""
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(1032438381)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
